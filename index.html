@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change Narrative Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/d3-svg-annotation@2.5.1/d3-annotation.min.js"></script>
+  <script src="js/temperature.js" defer></script>
+  <script src="js/co2.js" defer></script>
+  <script src="js/seaLevel.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Climate Change Narrative Visualization</h1>
+  </header>
+  <div id="container">
+    <div id="scene-container">
+      <div id="scene"></div>
+      <div id="annotations"></div>
+    </div>
+    <div id="controls">
+      <button id="prev" class="control-button">Previous</button>
+      <button class="nav-button" data-index="0">1</button>
+      <button class="nav-button" data-index="1">2</button>
+      <button class="nav-button" data-index="2">3</button>
+      <button id="next" class="control-button">Next</button>
+    </div>
+  </div>
+</body>
+</html>
